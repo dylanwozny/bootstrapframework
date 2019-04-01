@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>bootstrap</title>
+    <!-- bootstrap link -->
+    <!-- or -->
+    <!-- download to src folder (css and js) -->
+    <!-- can use cmd npm to download to create local version (internet not needed)-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body >
+    <!-- use class to call bootstrap css pre-built CSS -->
+    <!-- can also use your own css  -->
+    <!-- https://devhints.io/bootstrap cheat sheet -->
+    <!-- <style>
+        .box{
+            background: tomato;
+
+        }
+
+    </style> -->
+    <nav class="bg-dark p-4">
+
+    </nav>
+    <header class="jumbotron"></header>
+    <!-- class="container" is parent -->
+    <!-- class="row is child" -->
+    <div class="container">
+
+        <div class="row">
+            <!-- in smallest view port do take up 6 columns out of 12 -->
+            <!-- in small viewport take up 8 out of 12 -->
+            <!-- medium viewport rake up 12 out of 12 -->
+            <!-- if col, content inside will determine width-->
+            <div class="box bg-warning col-6 col-sm-8 col-md-12">
+                <h3>content box</h3>
+            </div>
+    
+        
+                <div class="box bg-info col-6">
+                    <h3>content box</h3>
+                </div>
+         
+            
+                    <div class="box bg-danger col-6">
+                        <h3>content box</h3>
+                    </div>
+               
+                
+                        <div class="box bg-secondary col-6">
+                            <h3>content box</h3>
+                        </div>
+                   
+    </div>
+    
+    
+</body>
+</html>

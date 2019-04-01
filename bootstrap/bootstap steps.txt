@@ -1,0 +1,46 @@
+install bootsrap 
+
+get bootstrap grid overlay for chrome
+
+1. got to main folder (not src)
+2. npm init
+3. fill in questions, index.html (),none, link git repositroy if you want !, MIT for liscences
+https://github.com/dylanwozny/bootstrapframework.git
+4. package.json file has all your info, can be modified, like repository
+4. "npm install"
+5. "npm install bootstrap@latest"
+
+6. .gitignore in main folder (not src)
+7.  write /node_modules in file to ignore node modules
+	- beacuse oyu dont want to upload node modules
+	
+	
+	
+downloading GIThub repositroy
+
+1. init git
+2. git clone "link"	
+
+
+GRID
+
+12 columns long
+
+Classes
+
+container = parent
+row = children positioned on the grid in a row (like flex)
+row uses flex........
+put col on element inside row...
+col-6 = stretch 6 columns
+col-md-6 = md/ is medium break point (col is the smallest view port)
+bootstrap has built in media queries built in adn default values https://devhints.io/bootstrap
+bg-"" = colors (can use your own)
+https://getbootstrap.com/docs/4.3/utilities/colors/
+
+
+for responsive:
+https://devhints.io/bootstrap
+
+wont be exact line up with exntension lines
+

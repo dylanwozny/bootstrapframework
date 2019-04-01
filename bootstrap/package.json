@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "boot strap start framework",
+  "main": "index.html",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dylanwozny/bootstrapframework.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "framework"
+  ],
+  "author": "dylan wozny",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dylanwozny/bootstrapframework/issues"
+  },
+  "homepage": "https://github.com/dylanwozny/bootstrapframework#readme"
+}
