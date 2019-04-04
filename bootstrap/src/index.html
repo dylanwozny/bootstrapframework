@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>bootstrap</title>
+    <title>bootstrap navbar</title>
     <!-- bootstrap link -->
     <!-- or -->
     <!-- download to src folder (css and js) -->
@@ -12,51 +12,29 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
 </head>
-<body >
-    <!-- use class to call bootstrap css pre-built CSS -->
-    <!-- can also use your own css  -->
-    <!-- https://devhints.io/bootstrap cheat sheet -->
-    <!-- <style>
-        .box{
-            background: tomato;
-
-        }
-
-    </style> -->
-    <nav class="bg-dark p-4">
-
-    </nav>
-    <header class="jumbotron"></header>
-    <!-- class="container" is parent -->
-    <!-- class="row is child" -->
-    <div class="container">
-
-        <div class="row">
-            <!-- in smallest view port do take up 6 columns out of 12 -->
-            <!-- in small viewport take up 8 out of 12 -->
-            <!-- medium viewport rake up 12 out of 12 -->
-            <!-- if col, content inside will determine width-->
-            <div class="box bg-warning col-6 col-sm-8 col-md-12">
-                <h3>content box</h3>
+<body>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+            <a href="#" class="navbar-brand">branding</a>
+            <!-- deafult is flex box: end/column -->
+            <!-- look into browser inspector to find defaults and change bootstrap -->
+            <button class="navbar-toggler" data-toggler="collapse" data-target="#mobile-menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="navbar-item mr-4">
+                        <a href="#">shop</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#">help</a>
+                    </li>
+                </ul>
             </div>
-    
-        
-                <div class="box bg-info col-6">
-                    <h3>content box</h3>
-                </div>
-         
-            
-                    <div class="box bg-danger col-6">
-                        <h3>content box</h3>
-                    </div>
-               
-                
-                        <div class="box bg-secondary col-6">
-                            <h3>content box</h3>
-                        </div>
-                   
-    </div>
-    
-    
+
+        </nav>
+                <!-- for Js if needed: js needed for drop down mobile menu-->
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,0 +1,18 @@
+lab delayed. will be copy and paste jquery
+lab, just copy paste working menu.....
+
+can copy and paste a navbar from bootstrap website.
+
+itsk ok to over use divs with boostrap
+images need inline styles
+
+can copy and paste from other sites from edit-html
+
+can use material-ui.com for templates
+
+learn boostrap for proto-typing
+
+
+https://www.oreilly.com/topics/oreilly-learning
+
+https://medium.com/level-up-web/developer-roadmaps-all-in-one-place-75c0402db0e0
